@@ -1,0 +1,9 @@
+path: /content/URPC-1
+train: train/images
+val: valid/images
+nc: 4
+names:
+- class_1
+- class_2
+- class_3
+- class_4
