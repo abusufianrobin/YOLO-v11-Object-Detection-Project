@@ -1,0 +1,26 @@
+Create environment :
+conda create --name yolo-env1 python=3.12
+
+Activate this environment :
+conda activate yolo-env1
+
+Deactivate this environemnt:
+conda deactivate
+
+Start label-studio:
+
+label-studio start
+
+Label Studio Account Details
+
+Email : robin@gmail.com
+Password: robin*siu*2# 
+
+Path Command : cd /d "D:\Python\YOLO Object Detection Project\my_model"
+
+Pytorch : pip3 install --upgrade torch torchvision --index-url https://download.pytorch.org/whl/cu126
+
+
+Alright! We're ready to run the script. To run inference with a yolov8s model on a USB camera at 1280x720 resolution, issue:
+
+python yolo_detect.py --model my_model.pt --source usb0 --resolution 1280x720
