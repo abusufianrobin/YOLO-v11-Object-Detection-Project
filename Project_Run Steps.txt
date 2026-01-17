@@ -1,0 +1,41 @@
+
+#     $ conda activate lidar_project
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+
+--> conda activate lidar_project
+
+*** Downlooad for Image train dependency : pip install boto3 botocore tqdm
+Run Command : 
+pip install tensorflow tensorflow-datasets ultralytics pyyaml opencv-python tqdm lxml
+ 
+
+
+
+** Necessary Libraries : 
+(lidar_project) C:\Users\User>pip install numpy pandas matplotlib
+(lidar_project) C:\Users\User>pip install open3d
+
+(lidar_project) C:\Users\User>pip install "laspy[lazrs,laszip]"
+(lidar_project) C:\Users\User>pip install rasterio geopandas shapely alphashape
+(lidar_project) C:\Users\User>pip install jupyterlab
+
+#Open The Jupyter lab IDE
+
+(lidar_project) C:\Users\User>jupyter lab
+(lidar_project) D:\Python\OpenCV Projects\LiDAR_Point_Cloud_Vectorization>pip list
+
+Change to the directory : 
+
+D:
+cd "D:\Python\OpenCV Projects\LiDAR_Point_Cloud_Vectorization"
+
+
+Now : 
+(lidar_project) D:\Python\OpenCV Projects\LiDAR_Point_Cloud_Vectorization>jupyter lab
+
+
+
