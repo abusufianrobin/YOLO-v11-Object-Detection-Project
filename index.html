@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rescue Bot Control Panel</title>
+    <style>
+        body { font-family: Arial; background: #111; color: #fff; text-align: center; }
+        img { border: 2px solid #555; margin: 10px; }
+        button {
+            padding: 12px 20px;
+            margin: 10px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<h1>🚑 Rescue Bot Live Control</h1>
+
+<img src="/video_feed" width="640"/>
+
+<form method="post" action="/capture">
+    <button name="object" value="fire">🔥 Capture Fire</button>
+    <button name="object" value="smoke">🌫 Capture Smoke</button>
+    <button name="object" value="person">👤 Capture Person</button>
+</form>
+
+</body>
+</html>
