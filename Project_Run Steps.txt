@@ -38,4 +38,15 @@ Now :
 (lidar_project) D:\Python\OpenCV Projects\LiDAR_Point_Cloud_Vectorization>jupyter lab
 
 
+Now For 3D scan part : 
+
+run ths code :python 3D_Scanning_Path_Show.py
+
+ Now for 2D_Scanning install the dependency : 
+pip install torch torchvision opencv-python flask
+
+
+Run The code: 
+
+python 2D_Scanning.py --model best.pt --source usb0 --resolution 1280x720
 
